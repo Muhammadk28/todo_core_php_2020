@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: source sans pro;
+}
+a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.header{
+    background: orange;
+}
+.logo a{
+    font-family: Pacifico;
+    font-size: 40px;
+    color: #000;
+   
+}
+.logo a:hover{
+    color: white;
+}
+.nab:hover{
+    background: #000;
+    color: #fff;
+    border-radius: .25rem;   
+}
+
+.nab{ 
+    font-family: raleway;
+    font-size: 20px;
+    color: #000;
+}
+.heading{
+    font-family: gayathri;
+    border-bottom: 2px solid ;
+}
+.able{
+    font-size: 20px;
+}
+.able > tbody> tr:nth-child(odd){
+ background: #ddd;
+}
