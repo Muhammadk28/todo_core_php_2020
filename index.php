@@ -19,30 +19,37 @@ require 'db.php';
     <header class="header">
         <div class="container-fluid">
             <div class=" pt-4 d-flex">
-                <div class="logo col-md-6 float-left">
+                <div class="logo col-md-4 float-left">
                 <h1 class="logo "><a  href="index.php"> Pregnancy </a></h1>
                 </div>
-                <div class="navbar col-md-6 float-right">
+                <div class="navbar col-md-8 float-right">
                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                     <li class="nav-item  ">
                         <a class="nav-link nab"  data-toggle="pill" href="index.php" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nab" id="pills-profile-tab" data-toggle="pill" href="#" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+                        <a class="nav-link nab" id="pills-profile-tab" data-toggle="pill" href="#" role="tab" aria-controls="pills-profile" aria-selected="false">Add Schedule</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nab" id="pills-contact-tab" data-toggle="pill" href="#" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                        <a class="nav-link nab" id="pills-contact-tab" data-toggle="pill" href="#" role="tab" aria-controls="pills-contact" aria-selected="false">List Schedule</a>
                     </li>
                 </ul>
-
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark font my-2 my-sm-0" type="submit">Search</button>
+                </form>
                 </div>
             </div>
         </div>
     </header>
     <section id="todo">
         <div class="container">
-            <div class="text-center">
-                <h1 class="text-success heading mt-5 ">Today Work Schedule</h1>
+            <div class="text-center d-flex heading">
+                <h1 class="col-md-8 text-success  mt-5 ">Today Work Schedule</h1>
+                <div class="col-md-4 mt-5">
+                    <button class=" btn btn-success">Add +</button>
+                </div>
+                
             </div>
             <table class="table able">
                 <thead>

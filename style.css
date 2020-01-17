@@ -35,12 +35,16 @@ a:hover{
     font-size: 20px;
     color: #000;
 }
+.font{
+    font-family: raleway;
+    font-size: 20px;
+}
 .heading{
     font-family: gayathri;
     border-bottom: 2px solid ;
 }
 .able{
-    font-size: 20px;
+    font-size: 14px;
 }
 .able > tbody> tr:nth-child(odd){
  background: #ddd;
